@@ -1,0 +1,36 @@
+.planos {
+    background: var(--cor-back-cinza);
+    font-family: var(--fonte-principal);
+    padding-top: 4em;
+}
+
+.planos__h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.planos__p {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.planos__cartoes{
+    align-items: center;
+    column-gap: 0.5em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+
+.planos__cartoes img {
+    cursor: pointer;
+    height: 20px;
+    width: 29px;
+}
+
+.cartao__11 {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+.premium {
+    font-family: var(--fonte-principal);
+    height: auto;
+    padding: 70px 100px;
+    width: auto;
+}
+.premium__titulo {
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+.premium__topicos {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+.premium__img__off,
+.premium__img__anuncios,
+.premium__img__quiser,
+.premium__img__troque {
+	align-items: center;
+	display: flex;
+	height: 135px;
+	margin-top: 40px;	
+	padding-bottom: 20px;
+	width: 135px;
+}
+.premium__img__off,
+.premium__img__quiser {
+	padding-left: 35px;
+}
+.premium__img__anuncios {
+	padding-left: 90px;
+}
+.premium__img__troque {
+	padding-left: 75px;
+}
+.premium__descricao {
+	display: block;
+}
+.premium__h3 {
+	font-size: 21px;
+	font-weight: bold;
+	margin: 10px 0;
+	text-align: center;
+}
+.premium__p {
+	text-align: center;
+}

@@ -1,0 +1,116 @@
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 3em;
+}
+
+.cards__principais {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgb(255 255 255) 0px 8px 80px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+    padding: 1em;
+    width: 235px;
+}
+
+.card__primeiro-p {
+    align-items: center;
+    background: var(--cor-back-azul);
+    border-radius: 3.5px;
+    display: flex;
+    color: var(--cor-fonte-primaria);
+    font-size: 14px;
+    font-weight: bold;
+    height: 1.5em;
+    margin-bottom: .5em;
+    justify-content: center;
+    width: 180px;
+}
+
+.card__segundo-p {
+    align-items: center;
+    border: 1px solid var(--cor-back-azul);
+    border-radius: 3.5px;
+    color: var(--cor-back-azul);
+    display: flex;
+    height: 1.5em;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: .5em;
+    width: 200px;
+}
+
+.card__h3 {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: .5em;
+}
+
+.card__terceiro-p {
+    border-bottom: 1.5px solid #545454;
+    line-height: 22px;
+    margin-bottom: 1em;
+    padding-bottom: 1.5em;
+}
+
+.card__item-lista img {
+    height: 20px;
+    padding-right: 1em;
+    width: 20px;
+}
+
+.card__item-lista {
+    display: flex;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+
+.card__botao {
+    background: var(--cor-back-cabecalho);
+    border: none;
+    border-radius: 25px;
+    color: var(--cor-fonte-primaria);
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 14px 32px;
+    text-transform: uppercase;
+}
+
+.card__botao:hover {
+    scale: 1.1;
+    transition-duration: 33ms;
+}
+
+.card__quarto-p {
+    font-size: 12px;
+    padding-top: 1em;
+}
+
+.card__quarto-p a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.botao__individual {
+    margin-top: 172px;
+}
+
+.botao__duo {
+    margin-top: 199px;
+}
+
+.botao__familia {
+    margin-top: 21px;
+}
+
+.botao__universitario {
+    margin-top: 148px;
+}

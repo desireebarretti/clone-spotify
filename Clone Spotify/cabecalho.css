@@ -1,0 +1,32 @@
+.cabecalho {
+    background: var(--cor-back-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    align-items: center;
+}
+.logo__cabecalho {
+    cursor: pointer;
+    height: 12%;
+    padding-left: 73px;
+    width: 12%;
+    padding-left: 80px;
+}
+.lista__cabecalho {
+    color: var(--cor-fonte-primaria);
+    display: inline-flex;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    list-style: none;
+    margin-top: 17px;
+    padding-left: 400px;
+}
+.lista__menu ul li {
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 40px 6px 0;
+    padding-bottom: 7px;
+}
+.item__lista:hover {
+    color: var(--cor-hover);
+}

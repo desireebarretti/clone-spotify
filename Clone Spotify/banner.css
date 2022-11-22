@@ -1,0 +1,59 @@
+.banner {
+    background: var(--cor-back-azul);
+    font-family: var(--fonte-principal);
+    height: 368px;
+    padding-left: 100px;
+}
+.banner__titulo {
+    color: var(--cor-fonte-primaria);
+    font-size: 40px;
+    font-weight: 900;
+    padding: 72px 0 0 0;
+}
+.banner__descricao {
+    color: var(--cor-fonte-primaria);
+    font-size: 24px;
+    margin-top: 30px;
+}
+.banner__letra-min {
+    color: var(--cor-fonte-primaria);
+    font-size: 11px;
+}
+.banner__letra-min a {
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.botoes {
+    margin: 35px 0;
+}
+.botao__comecar,
+.botao__planos {
+    border-radius: 25px;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 140px;
+}
+.botao__comecar {
+    background: #191414;
+    color: var(--cor-fonte-primaria);
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 18px;
+}
+.botao__planos {
+    background: transparent;
+    border: 2px solid var(--cor-fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    cursor: pointer;
+    padding: 16px;
+}
+.botao__planos:hover {
+    scale: 1.1;
+    transition-duration: 33ms;
+}
+.botao__comecar:hover {
+    scale: 1.1;
+    transition-duration: 33ms;
+}
